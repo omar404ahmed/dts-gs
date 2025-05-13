@@ -27,7 +27,7 @@ This results in more detailed and accurate high-resolution renderings for novel 
 
 ## Architecture
 
-![SRAT Architecture](https://raw.githubusercontent.com/username/SRAT/main/docs/images/srat_architecture.png)
+![SRAT Architecture](srat_architecture.png)
 
 SRAT combines three key component types:
 - **SWINIR Components** (blue): Core super-resolution transformer pipeline
@@ -221,18 +221,8 @@ datasets/
 
 ## Results
 
-### Quantitative Comparison
+For detailed experimental results, analysis, and a discussion of limitations, please refer to the ![full paper](Enhanced_Texture_Super_resolution_Gaussian_Splatting_for_High_Resolution_Novel_View_Synthesis_from_Low_Resolution_Inputs.pdf) for details. 
 
-| Method | Scale | PSNR | SSIM | LPIPS | Cross-View Consistency |
-|--------|-------|------|------|-------|------------------------|
-| SWINIR | ×4    | 31.82| 0.938| 0.098 | 0.728                  |
-| SRAT   | ×4    | 32.53| 0.949| 0.072 | 0.856                  |
-
-### Qualitative Results
-
-![Comparison](https://raw.githubusercontent.com/username/SRAT/main/docs/images/comparison.png)
-
-SRAT shows improved texture detail preservation and cross-view consistency compared to SWINIR, especially in high-frequency areas.
 
 ### SRGS Integration Results
 
@@ -242,20 +232,6 @@ When integrated with SRGS, SRAT provides:
 - Improved cross-view consistency
 - More accurate geometry reconstruction due to better texture cues
 
-## Citation
-
-If you find this work useful in your research, please consider citing:
-
-```bibtex
-@misc{srat2023,
-  author = {Author Names},
-  title = {SRAT: Super-Resolution Aware Transformer for Enhanced Texture Generation in 3D Gaussian Splatting},
-  year = {2023},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/username/SRAT}}
-}
-```
 
 ## Acknowledgments
 
