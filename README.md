@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Python](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10-blue)
-![PyTorch](https://img.shields.io/badge/pytorch-1.12+-blue)
+![PyTorch](https://img.shields.io/badge/pytorch-2.2+-blue)
 
 A hybrid architecture combining SWIN3D and SWINIR for enhanced texture generation in Super-Resolution 3D Gaussian Splatting (SRGS).
 
@@ -64,10 +64,11 @@ pip install -r requirements.txt
 
 ### Requirements
 - Python 3.8+
-- PyTorch 1.12+
+- PyTorch 2.2+
 - timm
 - Pillow
 - numpy
+- pandas
 - tqdm
 
 ## Usage
