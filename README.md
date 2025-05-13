@@ -222,7 +222,7 @@ datasets/
 
 ## Results
 
-For detailed experimental results, analysis, and a discussion of limitations, please refer to the ![full paper](Enhanced_Texture_Super_resolution_Gaussian_Splatting_for_High_Resolution_Novel_View_Synthesis_from_Low_Resolution_Inputs.pdf) for details. 
+For detailed experimental results, analysis, and a discussion of limitations, please refer to the [full paper](Enhanced_Texture_Super_resolution_Gaussian_Splatting_for_High_Resolution_Novel_View_Synthesis_from_Low_Resolution_Inputs.pdf) for details. 
 
 
 ### SRGS Integration Results
