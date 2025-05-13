@@ -55,7 +55,7 @@ SRAT combines three key component types:
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/SRAT.git
+git clone https://github.com/omar404ahmed/dts-gs.git
 cd SRAT
 
 # Install dependencies
